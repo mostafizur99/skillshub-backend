@@ -19,6 +19,7 @@ export type ILoginUseResponse = {
 export type IUserExist = {
   email: string;
   password: string;
+  role: string;
   _id: string;
 };
 

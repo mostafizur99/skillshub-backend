@@ -18,3 +18,11 @@ export type UserModel = {
     savedPassword: string
   ): Promise<boolean>;
 } & Model<IUser>;
+
+// export type IUseResponse = {
+//   _id: string;
+//   name: string;
+//   email: string;
+//   role: string;
+// };
+export type IUserRole = 'user' | 'admin' | 'super-admin';
