@@ -8,4 +8,4 @@ export const serviceStatus: IServiceStatus[] = [
 
 export const serviceSearchableFields = ['title'];
 
-export const serviceFilterableFields = ['startDate', 'searchTerm'];
+export const serviceFilterableFields = ['status', 'startDate', 'searchTerm'];

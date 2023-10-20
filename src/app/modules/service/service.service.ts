@@ -56,7 +56,7 @@ const getAllServices = async (
     .skip(skip)
     .limit(limit);
 
-  const total = await Service.countDocuments();
+  const total = await Service.countDocuments(whereConditions);
 
   return {
     meta: {
