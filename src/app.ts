@@ -4,12 +4,13 @@ import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import routes from './app/routes';
 import cookieParser from 'cookie-parser';
-import config from './config';
+// import config from './config';
 
 const app: Application = express();
 
 const corsOrigin = {
-  origin: config.site_url,
+  // origin: config.site_url,
+  origin: true,
   credentials: true,
   optionSuccessStatus: 200,
 };
